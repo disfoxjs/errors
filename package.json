@@ -1,0 +1,59 @@
+{
+  "name": "@disfox/errors",
+  "version": "0.0.1",
+  "description": "Disfox Errors",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "tsc --noEmit"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discord bot",
+    "bot framework",
+    "slash commands",
+    "interaction handler",
+    "nodejs",
+    "typescript",
+    "framework",
+    "api",
+    "bot",
+    "disfox"
+  ],
+  "author": "xFoxyyy0",
+  "license": "MIT",
+  "homepage": "https://disfox.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/disfoxjs/disfox"
+  },
+  "bugs": {
+    "url": "https://github.com/disfoxjs/disfox/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "globals": "^17.6.0",
+    "typescript": "^5.9.3"
+  }
+}
